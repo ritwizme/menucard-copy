@@ -11,9 +11,9 @@ class Menu2 extends Component {
 {this.props.name}
   
   
-      <Container dish="dish4"/>
-      <Container dish="dish5"/>
-      <Container dish="dish6"/>
+      <Container dish="dish4" price="price4"/>
+      <Container dish="dish5" price="price5"/>
+      <Container dish="dish6" price="price6"/>
 
 
 </div>
