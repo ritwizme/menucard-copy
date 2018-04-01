@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "font1";
+	src: url("../fonts/peaemilyspen.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.menu{
+	width:500px;
+	height:800px;
+	border:1px solid #fff;
+	border-radius:7px;
+	padding: 20px;
+}
+.shadow{
+box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+-o-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+}
+.order{
+	width:500px;
+	height:800px;
+	border:1px solid #fff;
+	border-radius:20px;
+	padding: 20px;
+}
+
+.dish{
+	font-family: font1 !important;
+}
+
+.desc{
+	font-family: 'Indie Flower', cursive;
+
+}
+
