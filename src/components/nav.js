@@ -7,9 +7,14 @@ class Nav extends Component {
     return (
 <nav class="navbar">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><b>ID</b></a>
+  <div class="navbar-header">
+      <a class="navbar-brand" href="#">ID</a>
     </div>
+    <ul class="nav navbar-nav">
+    <li><a href="#one">cuisine1</a></li>
+      <li><a href="#two">cuisine2</a></li>
+      <li><a href="#three">cuisine3</a></li>
+    </ul>
    
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"> My Orders</a></li>
