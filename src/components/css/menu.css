@@ -5,17 +5,18 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 .menu{
-	width:500px;
-	height:800px;
+	width:600px;
+	height:auto;
 	border:1px solid #fff;
+	background-color: #f6f6f6;
 	border-radius:7px;
 	padding: 20px;
 }
 .shadow{
-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
--webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
--moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
--o-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
+-webkit-box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
+-moz-box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
+-o-box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
 }
 .order{
 	width:500px;
