@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Routes from './routes';
 import logo from './logo.svg';
 import './App.css';
-import Menu2 from './components/menu2.js'
-import Menu from './components/menu.js'
-import Nav from './components/nav.js'
-import './components/bootstrap.min.css'
+import Menu2 from './components/menu2.js';
+import Menu from './components/menu.js';
+import Nav from './components/nav.js';
+import './components/bootstrap.min.css';
+import Side from './components/sidelogo.js';
+
 
 class App extends Component {
 
@@ -15,11 +18,9 @@ class App extends Component {
     return (
   
       <div className="App">
-      
+            <Routes />
          <Nav />
-      <div id="one"><Menu name="Dosa"/></div><br />
-      <div id="two"><Menu2 name="Chinese"/></div><br />
-      <div id="three"><Menu name="Continental"/></div>
+     
       </div>
     );
   }

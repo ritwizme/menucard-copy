@@ -4,13 +4,17 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+@font-face {
+	font-family: "kristi";
+	src: url("../fonts/Kristi.ttf");
+}
+
 .menu{
 	width:600px;
 	height:auto;
-	border:1px solid #fff;
 	background-color: #f6f6f6;
-	border-radius:7px;
 	padding: 20px;
+	padding-left: 20px
 }
 .shadow{
 box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
@@ -21,7 +25,7 @@ box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
 .order{
 	width:500px;
 	height:800px;
-	border:1px solid #fff;
+	/*border:1px solid #fff;*/
 	border-radius:20px;
 	padding: 20px;
 }
@@ -34,4 +38,16 @@ box-shadow: inset 0px 0px 10px 0px #fff,5px 5px 5px 1px #000000;
 	font-family: 'Indie Flower', cursive;
 
 }
+.side{
+	width:150px;
+	height:150px;
+	margin-left: 10%;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	
+	
+}
 
+.mktime{
+	font-family: kristi !important;
+}

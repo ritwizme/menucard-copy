@@ -14,8 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: #003c5d;
-  background-color: #ffffff;
+  color: #f6f6f6;
 }
 
 a {
@@ -25,6 +24,9 @@ a {
 
 img {
   max-width: 100%;
+}
+.homeh1{
+  color:#fff;
 }
 
 /* -------------------------------- 
@@ -734,9 +736,10 @@ main content basic style
 .cd-main-content {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 1000px;
+  height: auto;
   padding: 100px 0;
-  background-color: #003c5d;
+  background-color: #f6f6f6;
 }
 
 /* -------------------------------- 
@@ -813,4 +816,19 @@ keyframes
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+
+
+
+/*cssss*/
+
+.logo{
+  width:150px;
+  height:150px;
+  margin-left:-75px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  
+  margin-top: 10%;
 }
